@@ -1,7 +1,7 @@
 # pkill_pause
 short bash script to find, pause and un-pause a process ID using ps -e and kill commands stop/cont
 1. download or clone this repository, or copy out the script, then make executable:
-  a. $ sudo chmod +x ./pkill.sh
+  a. $ sudo chmod +x ./pkill_pause.sh
   
 2. run the script in terminal
 
