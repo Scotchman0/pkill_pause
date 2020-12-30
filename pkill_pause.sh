@@ -2,7 +2,6 @@
 #find process name and turn it into a variable:
 echo "what's the name of the process"
 read process_name
-#ps -e | grep $process_name | grep -A 0 '+' | cut -c15-20 
 PID=$(ps -e | grep "$process_name" | awk '{print $1}')
 echo "this is your PID: $PID"
 
